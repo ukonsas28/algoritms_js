@@ -27,4 +27,4 @@ const arr = generateRandomArr(10);
 
 console.log(arr, selectionSort(arr));
 
-// log(n^2)
+// O(log n^2)

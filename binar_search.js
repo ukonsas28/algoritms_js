@@ -18,6 +18,7 @@ const binarSearch = (arr, find) => {
   return null;
 };
 
-console.log(binarSearch(generateSortArr(100), generateRandomValue(0, 99)));
+const findValue = generateRandomValue(0, 99);
+console.log(findValue, binarSearch(generateSortArr(100), findValue));
 
 //O(log n)
