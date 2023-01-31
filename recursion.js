@@ -55,4 +55,4 @@ const recursionBinarSearch = (arr, find) => {
 };
 
 const findValue = generateRandomValue(0, 15);
-console.log(findValue, recursionBinarSearch(generateSortArr(15), findValue));
+console.log(findValue, recursionBinarSearch(generateSortArr(15), findValue)); 
